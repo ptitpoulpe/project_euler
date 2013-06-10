@@ -1,3 +1,5 @@
+#pypy numpy
+
 res = []
 
 res.append([0])
@@ -14,7 +16,7 @@ def p(n):
 
 n = 1
 pn = 1
-while pn%10000:
+while n < 5000:#pn%10000:
   n += 1
   pn = p(n)
 print n
